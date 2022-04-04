@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head> <!-- cabecera del sitio - informatico -->
-    <title>Clinica Dental</title>
+    <title>Neo Sonrisas</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
@@ -14,8 +14,8 @@
 <body> <!-- contenido del sitio -->    
     <div class="hero-image"> <!-- hero image -->
         <header> <!-- encabezado --> 
-            <section class="secundary-color"> <!-- top bar -->
-                <div class="header-navigation secundary-color"> <!-- top bar container -->
+            <section class="contrast-color"> <!-- top bar -->
+                <div class="header-navigation contrast-color"> <!-- top bar container -->
                     <div class="header-left">
                         <i class="fa-solid fa-phone fa-2xs"></i> <span>+51 974999999</span>
                         <i class="fa-solid fa-calendar fa-2xs"></i> <span>Lun. a Vier. 9:00 - 19:00</span> 
@@ -28,7 +28,7 @@
                 </div>
             </section>
             <nav class="header-navigation"> <!-- menu de navegacion --> 
-                <div class="logo">
+                <div class="logo-size-header">
                     <a href="#"> <!-- enlace al sitio --> 
                         <img src="assets/images/dental-logo-white.svg" class="image-fit" alt="dental logo" > <!-- logo del sitio -->
                     </a> 
@@ -48,7 +48,7 @@
                     <h2 class="hero-subtitle">El mejor servicio</h2>
                     <h1 class="hero-title">Dental Especializado</h1>
                     <p class="hero-text">Contamos con las mejores técnicas y equipos para hacer de tu experiencia en salud dental, la mejor.</p>
-                    <button type="button" class="main-button">CONTACTO</button> <!-- boton de contacto -->
+                    <button type="button" class="hero-button">CONTACTO</button> <!-- boton de contacto -->
                 </article>                
             </div>
             <div class="hero-content-box-right"> <!-- contenedor right -->
@@ -57,53 +57,118 @@
         </section>
     </div>
     <main> <!-- contenido del sitio -->    
-        <section> <!-- seccion de servicios -->
-            <div> <!-- titulo -->
-                <article> 
-                    <h1>Nuestros Servicios</h1>
+        <section class="top-bottom-margin"> <!-- seccion de servicios -->
+            <div class="row-content-row flex-content-center top-margin-extra"> <!-- titulo -->
+                <article class="row-content-column-center">
+                    <h1>Nuestros <span class="tittle-word-bold">servicios</span></h1>
                     <p>Sonrisas diseñadas para ti</p>
                 </article>
             </div>
-            <div> <!-- servicios -->                
-                <article> <!-- servicio 1 -->
-                    <img src="resources/images/circle.png" alt=""> <!-- icono -->
-                    <h2>Servicio 1</h2>
-                    <p>Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus</p>
-                </article>
-                <article> <!-- servicio 2 -->
-                    <img src="resources/images/circle.png" alt=""> <!-- icono -->
-                    <h2>Servicio 2</h2>
-                    <p>Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus</p>
-                </article>
-                <article> <!-- servicio 3 -->
-                    <img src="resources/images/circle.png" alt=""> <!-- icono -->
-                    <h2>Servicio 3</h2>
-                    <p>Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus</p>
-                </article>                
-            </div>
-            <div> <!-- servicios lista y boton -->
-                <article>
-                    <ul>
-                        <li>Titulo del servicio x</li>
-                        <li>Titulo del servicio x</li>
-                        <li>Titulo del servicio x</li>
-                        <li>Titulo del servicio x</li>
-                    </ul>
-                </article>
-                <div> <!-- contenedor para boton -->
-                    <button type="button">Explora nuestros servicios</button> <!-- boton de servicios -->
+            <div class="row-content-row flex-content-center top-bottom-margin"> <!-- servicios -->
+                <div class="simple-grid-3c top-bottom-margin">
+                    <div class="row-content-column"> <!-- row -->
+                        <a href="#" class="card card-primary-color"> <!-- servicio 1 -->
+                            <article class="card-content-container">
+                                <div> <!-- icon container -->
+                                    <i class="fa-solid fa-tooth fa-2xl card-icon-primary-color" ></i><!-- icono -->
+                                </div>
+                                <h3 class="card-title">Servicio 1</h3>
+                                <p class="card-paragraph">Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus</p>
+                                <div class="go-corner go-corner-primary-color" href="#"> <!-- arrow -->
+                                    <div class="go-arrow">
+                                        →
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+                    </div>
+                    <div class="row-content-column"> <!-- row -->
+                        <a href="#" class="card"> <!-- servicio 2 -->
+                            <article class="card-content-container">
+                                <div> <!-- icon container -->
+                                    <i class="fa-solid fa-tooth fa-2xl card-icon" ></i><!-- icono -->
+                                </div>
+                                <h3 class="card-title">Servicio 1</h3>
+                                <p class="card-paragraph">Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus</p>
+                                <div class="go-corner go-corner" href="#"> <!-- arrow -->
+                                    <div class="go-arrow">
+                                        →
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+                    </div>
+                    <div class="row-content-column"> <!-- row -->
+                        <a href="#" class="card card-primary-color"> <!-- servicio 3 -->
+                            <article class="card-content-container">
+                                <div> <!-- icon container -->
+                                    <i class="fa-solid fa-tooth fa-2xl card-icon-primary-color" ></i><!-- icono -->
+                                </div>
+                                <h3 class="card-title">Servicio 1</h3>
+                                <p class="card-paragraph">Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus</p>
+                                <div class="go-corner go-corner-primary-color" href="#"> <!-- arrow -->
+                                    <div class="go-arrow">
+                                        →
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </section> 
-        <hr>
-        <section> <!-- seccion seguro dental -->
-            <div> <!-- contenedor -->
-                <h1>Nuestro seguro dental</h1>            
-                <p>Nulla quis lorem ut libero malesuada feugiat. Nulla porttitor accumsan tincidunt. Donec sollicitudin molestie malesuada</p>             
-                <button type="button">Ver precios y caracteristicas</button> <!-- boton de precios -->
+            <div class="row-content-row flex-content-center top-margin-extra bottom-margin-extra"> <!-- servicios logo y lista -->
+                <div class="simple-grid-2c"> <!-- contenedor grid-->
+                    <div class="row-content-column flex-content-center">
+                        <div class="logo-size-normal"><!-- contenedor para logo -->
+                            <div class="image-fit">
+                                <img src="assets/images/dental-logo.svg"  alt="dental logo" >
+                            </div>
+                        </div>
+                    </div>
+                    <article class="row-content-column-center flex-content-center">
+                        <ul class="default-list">
+                            <li><i class="fa-solid fa-angle-right"></i><span>Titulo del servicio x</span></li>
+                            <li><i class="fa-solid fa-angle-right"></i><span>Titulo del servicio x</span></li>
+                            <li><i class="fa-solid fa-angle-right"></i><span>Titulo del servicio x</span></li>
+                            <li><i class="fa-solid fa-angle-right"></i><span>Titulo del servicio x</span></li>
+                        </ul>
+                        <button type="button" class="default-button">Explora nuestros servicios</button> <!-- boton de servicios -->
+                    </article>
+                </div>
             </div>
-        </section>            
-        <hr>
+        </section>
+        <section class="top-margin-extra"> <!-- seccion seguro dental -->
+            <div class="wave-container">
+                <svg viewBox="0 0 500 150" preserveAspectRatio="none" class="wave">
+                    <path d="M-45.48,87.10 C150.34,162.88 295.94,-64.46 500.00,49.85 L500.78,152.06 L-0.33,151.06 Z" class="wave-path"></path>
+                </svg>
+            </div>
+            <div class="wave-container-fill"> <!-- contenedor -->
+                <div class="row-content-row"> <!-- fila -->
+                    <div class="simple-grid-2c">
+                        <article class="column-content-column"> <!-- izquierda -->
+                            <div>
+                                <h1 class="hero-title">Nuestro seguro dental</h1>
+                                <p class="hero-text">Nulla quis lorem ut libero malesuada feugiat. Nulla porttitor accumsan tincidunt. Donec sollicitudin molestie malesuada</p>
+                                <button type="button">Ver precios y caracteristicas</button> <!-- boton de precios -->
+                            </div>
+                        </article>
+                        <div class="column-content-column flex-content-center"> <!-- derecha -->
+                            <div class="logo-size-normal"><!-- contenedor para logo -->
+                                <div class="image-fit">
+                                    <img src="assets/images/heart-ok.png" class="heart-image" alt="heart-ok" >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wave-container" >
+                <svg viewBox="0 0 500 150" preserveAspectRatio="none" class="wave">
+                    <path d="M-0.00,49.85 C150.00,149.60 484.98,69.38 500.00,49.85 L500.00,0.00 L-0.00,0.00 Z" class="wave-path"></path>
+                </svg>
+            </div>
+        </section>
         <section> <!-- seccion odontopediatria -->
             <div> <!-- fila uno -->
                 <div> <!-- left -->
@@ -179,29 +244,37 @@
             </div>
         </section>
     </main>
-    <hr>
-    <footer> <!-- pie de pagina -->
-        <section>
-            <div> <!-- left -->
-                <img src="resources/images/image_footer.png" alt="">
-                <h2>Company name</h2>
-                <p>Al cuidado de tu sonrisa</p>                
-            </div>
-            <div> <!-- center -->
-                <h2>Enlaces de interes</h2>
-                <ul> <!-- lista no ordenada - menu -->
-                    <a href="index.html"> <li>Inicio</li> </a>
-                    <a href="views/servicios.html"> <li>Servicios</li> </a>
-                    <a href="views/seguro-dental.html"> <li>Seguro Dental</li> </a>
-                    <a href="views/blog.html"> <li>Blog</li> </a>
-                    <a href="views/contacto.html"> <li>Contacto</li> </a>
-                </ul>
-            </div>
-            <div> <!-- right -->
-                <h2>Encuentranos</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3794.3993661967943!2d-70.24325865109674!3d-18.006660328518578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915acfe370391e33%3A0xa6266e203211b21e!2sParque%20de%20la%20cultura!5e0!3m2!1ses-419!2spe!4v1647652040130!5m2!1ses-419!2spe" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </section>
+    <footer class="top-bottom-padding contrast-color"> <!-- pie de pagina -->
+        <div class="row-content-row">
+            <section class="simple-grid-3c">
+                <div class="column-content-column flex-content-center "> <!-- left -->
+                    <div class="logo-size-footer">
+                        <img src="assets/images/dental-logo-white-contrast.svg" class="image-fit" alt="dental logo" >
+                    </div>
+                    <h4 class="contrast-title">Neo Sonrisas</h4>
+                    <p class="contrast-color contrast-text">Al cuidado de tu sonrisa</p>
+                    <div class="header-right top-margin">
+                        <a href="https://facebook.com/" class="secundary-icon" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                        <a href="https://instagram.com/" class="secundary-icon" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                        <a href="https://tiktok.com/" class="secundary-icon" target="_blank"><i class="fa-brands fa-tiktok fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="column-content-column flex-content-center"> <!-- center -->
+                    <h4 class="contrast-title">Enlaces de interes</h4>
+                    <ul class="footer-menu"> <!-- lista no ordenada - menu -->
+                        <li><a href="index.html"> Inicio </a></li>
+                        <li><a href="views/servicios.html"> Servicios </a></li>
+                        <li><a href="views/seguro-dental.html">Seguro Dental </a> <li>
+                        <li><a href="views/blog.html"> Blog </a></li>
+                        <li><a href="views/contacto.html"> Contacto </a></li>
+                    </ul>
+                </div>
+                <div class="column-content-column flex-content-center"> <!-- right -->
+                    <h4 class="contrast-title">Encuentranos</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3794.3993661967943!2d-70.24325865109674!3d-18.006660328518578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915acfe370391e33%3A0xa6266e203211b21e!2sParque%20de%20la%20cultura!5e0!3m2!1ses-419!2spe!4v1647652040130!5m2!1ses-419!2spe" class="map-frame" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </section>
+        </div>
     </footer>    
 </body>
 </html>

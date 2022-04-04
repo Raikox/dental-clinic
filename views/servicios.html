@@ -1,28 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head> <!-- cabecera del sitio - informatico -->
+    <title>Neo Sonrisas - Servicios</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clinica Dental</title>
+    <link rel="stylesheet" href="../assets/styles/style.css"> <!-- carga de estilos -->
+    <link href="../assets/fontawesome/css/all.css" rel="stylesheet"> <!-- carga de fontawesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- conexion a google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Noto+Sans&display=swap" rel="stylesheet"> <!-- fuentes a usar -->
 </head>
 <body> <!-- contenido del sitio -->
     <header> <!-- encabezado -->
-        Este es el encabezado
-    </header>    
-    <nav> <!-- menu de navegacion -->
-        <a href="#"> <!-- enlace al sitio -->
-            <img src="../resources/images/logo.png" alt="logo-dental" > <!-- logo del sitio -->
-        </a>        
-        <ul> <!-- lista no ordenada - menu -->
-            <a href="../index.html"> <li>INICIO</li> </a>
-            <a href="servicios.html"> <li>SERVICIOS</li> </a>
-            <a href="seguro-dental.html"> <li>SEGURO DENTAL</li> </a>
-            <a href="blog.html"> <li>BLOG</li> </a>
-            <a href="contacto.html"> <li>CONTACTO</li> </a>
-        </ul>
-    </nav>
-    <hr>
+        <section class="contrast-color"> <!-- top bar -->
+            <div class="header-navigation contrast-color"> <!-- top bar container -->
+                <div class="header-left">
+                    <i class="fa-solid fa-phone fa-2xs"></i> <span>+51 974999999</span>
+                    <i class="fa-solid fa-calendar fa-2xs"></i> <span>Lun. a Vier. 9:00 - 19:00</span>
+                </div>
+                <div class="header-right">
+                    <a href="https://facebook.com/" class="secundary-icon" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                    <a href="https://instagram.com/" class="secundary-icon" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                    <a href="https://tiktok.com/" class="secundary-icon" target="_blank"><i class="fa-brands fa-tiktok fa-lg"></i></a>
+                </div>
+            </div>
+        </section>
+        <nav class="header-navigation"> <!-- menu de navegacion -->
+            <div class="logo-size-header">
+                <a href="/index.html"> <!-- enlace al sitio -->
+                    <img src="/assets/images/dental-logo.svg" class="image-fit" alt="dental logo" > <!-- logo del sitio -->
+                </a>
+            </div>
+            <ul class="header-menu-blank-background"> <!-- lista no ordenada - menu -->
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="servicios.html">SERVICIOS</a></li>
+                <li><a href="seguro-dental.html">SEGURO DENTAL</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a id="right-nopadding" href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <section> <!-- seccion para hero -->
         <div> <!-- div para la hero image -->
             <h1>Servicios odontologicos</h1>            
@@ -34,29 +53,38 @@
 
         
     </main>
-    <hr>
-    <footer> <!-- pie de pagina -->
-        <section>
-            <div> <!-- left -->
-                <img src="resources/images/image_footer.png" alt="">
-                <h2>Company name</h2>
-                <p>Al cuidado de tu sonrisa</p>                
-            </div>
-            <div> <!-- center -->
-                <h2>Enlaces de interes</h2>
-                <ul> <!-- lista no ordenada - menu -->
-                    <a href="../index.html"> <li>Inicio</li> </a>
-                    <a href="servicios.html"> <li>Servicios</li> </a>
-                    <a href="seguro-dental.html"> <li>Seguro Dental</li> </a>
-                    <a href="blog.html"> <li>Blog</li> </a>
-                    <a href="contacto.html"> <li>Contacto</li> </a>
-                </ul>
-            </div>
-            <div> <!-- right -->
-                <h2>Encuentranos</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3794.3993661967943!2d-70.24325865109674!3d-18.006660328518578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915acfe370391e33%3A0xa6266e203211b21e!2sParque%20de%20la%20cultura!5e0!3m2!1ses-419!2spe!4v1647652040130!5m2!1ses-419!2spe" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </section>
-    </footer>    
+
+    <footer class="top-bottom-padding contrast-color"> <!-- pie de pagina -->
+        <div class="row-content-row">
+            <section class="simple-grid-3c">
+                <div class="column-content-column flex-content-center "> <!-- left -->
+                    <div class="logo-size-footer">
+                        <img src="/assets/images/dental-logo-white-contrast.svg" class="image-fit" alt="dental logo" >
+                    </div>
+                    <h4 class="contrast-title">Neo Sonrisas</h4>
+                    <p class="contrast-color contrast-text">Al cuidado de tu sonrisa</p>
+                    <div class="header-right top-margin">
+                        <a href="https://facebook.com/" class="secundary-icon" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                        <a href="https://instagram.com/" class="secundary-icon" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                        <a href="https://tiktok.com/" class="secundary-icon" target="_blank"><i class="fa-brands fa-tiktok fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="column-content-column flex-content-center"> <!-- center -->
+                    <h4 class="contrast-title">Enlaces de interes</h4>
+                    <ul class="footer-menu"> <!-- lista no ordenada - menu -->
+                        <li><a href="../index.html"> Inicio </a></li>
+                        <li><a href="servicios.html"> Servicios </a></li>
+                        <li><a href="seguro-dental.html">Seguro Dental </a> <li>
+                        <li><a href="blog.html"> Blog </a></li>
+                        <li><a href="contacto.html"> Contacto </a></li>
+                    </ul>
+                </div>
+                <div class="column-content-column flex-content-center"> <!-- right -->
+                    <h4 class="contrast-title">Encuentranos</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3794.3993661967943!2d-70.24325865109674!3d-18.006660328518578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915acfe370391e33%3A0xa6266e203211b21e!2sParque%20de%20la%20cultura!5e0!3m2!1ses-419!2spe!4v1647652040130!5m2!1ses-419!2spe" class="map-frame" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </section>
+        </div>
+    </footer>
 </body>
 </html>

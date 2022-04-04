@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ddb6f5f-e7f7-476d-8bfd-4afa824eeccf" name="Default Changelist" comment="" />
+    <list default="true" id="5ddb6f5f-e7f7-476d-8bfd-4afa824eeccf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/contacto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/seguro-dental.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/seguro-dental.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/servicios.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/servicios.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="26qa7Ke9I0eyZ9JxRn2zBlW5l7c" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -25,7 +39,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.jsx" />
+    <property name="settings.editor.selected.configurable" value="liveEdit" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ClinicaDental-MontesDeOca/index.html" useBuiltInWebServerPort="true">
@@ -37,6 +52,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -55,64 +71,20 @@
       <workItem from="1648609299844" duration="245000" />
       <workItem from="1648704469765" duration="4348000" />
       <workItem from="1648754430024" duration="779000" />
+      <workItem from="1648755220124" duration="12669000" />
+      <workItem from="1648790854399" duration="2126000" />
+      <workItem from="1648793128728" duration="9400000" />
+      <workItem from="1648830754445" duration="9670000" />
+      <workItem from="1648842358645" duration="1879000" />
+      <workItem from="1648879748053" duration="453000" />
+      <workItem from="1648880714697" duration="4526000" />
+      <workItem from="1648927975778" duration="9533000" />
+      <workItem from="1649010098860" duration="10001000" />
+      <workItem from="1649092499719" duration="5786000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1493" height="198" key="GridCell.Tab.0.bottom" timestamp="1648716028248">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="198" key="GridCell.Tab.0.bottom/0.0.1536.816/1920.-80.1680.1002@0.0.1536.816" timestamp="1648716028248" />
-    <state width="1493" height="198" key="GridCell.Tab.0.center" timestamp="1648716028248">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="198" key="GridCell.Tab.0.center/0.0.1536.816/1920.-80.1680.1002@0.0.1536.816" timestamp="1648716028248" />
-    <state width="1493" height="198" key="GridCell.Tab.0.left" timestamp="1648716028248">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="198" key="GridCell.Tab.0.left/0.0.1536.816/1920.-80.1680.1002@0.0.1536.816" timestamp="1648716028248" />
-    <state width="1493" height="198" key="GridCell.Tab.0.right" timestamp="1648716028248">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="198" key="GridCell.Tab.0.right/0.0.1536.816/1920.-80.1680.1002@0.0.1536.816" timestamp="1648716028248" />
-    <state width="1493" height="198" key="GridCell.Tab.1.bottom" timestamp="1648716028248">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="198" key="GridCell.Tab.1.bottom/0.0.1536.816/1920.-80.1680.1002@0.0.1536.816" timestamp="1648716028248" />
-    <state width="1493" height="198" key="GridCell.Tab.1.center" timestamp="1648716028248">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="198" key="GridCell.Tab.1.center/0.0.1536.816/1920.-80.1680.1002@0.0.1536.816" timestamp="1648716028248" />
-    <state width="1493" height="198" key="GridCell.Tab.1.left" timestamp="1648716028248">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="198" key="GridCell.Tab.1.left/0.0.1536.816/1920.-80.1680.1002@0.0.1536.816" timestamp="1648716028248" />
-    <state width="1493" height="198" key="GridCell.Tab.1.right" timestamp="1648716028248">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="198" key="GridCell.Tab.1.right/0.0.1536.816/1920.-80.1680.1002@0.0.1536.816" timestamp="1648716028248" />
-    <state width="1493" height="198" key="GridCell.Tab.2.bottom" timestamp="1648716028249">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="198" key="GridCell.Tab.2.bottom/0.0.1536.816/1920.-80.1680.1002@0.0.1536.816" timestamp="1648716028249" />
-    <state width="1493" height="198" key="GridCell.Tab.2.center" timestamp="1648716028248">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="198" key="GridCell.Tab.2.center/0.0.1536.816/1920.-80.1680.1002@0.0.1536.816" timestamp="1648716028248" />
-    <state width="1493" height="198" key="GridCell.Tab.2.left" timestamp="1648716028248">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="198" key="GridCell.Tab.2.left/0.0.1536.816/1920.-80.1680.1002@0.0.1536.816" timestamp="1648716028248" />
-    <state width="1493" height="198" key="GridCell.Tab.2.right" timestamp="1648716028249">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state width="1493" height="198" key="GridCell.Tab.2.right/0.0.1536.816/1920.-80.1680.1002@0.0.1536.816" timestamp="1648716028249" />
-    <state x="315" y="0" width="1221" height="816" key="SettingsEditor" timestamp="1648163884959">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="315" y="0" width="1221" height="816" key="SettingsEditor/0.0.1536.816/1920.-80.1680.1002@0.0.1536.816" timestamp="1648163884959" />
+    <option name="version" value="3" />
   </component>
 </project>
