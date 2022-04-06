@@ -38,7 +38,7 @@ h2, h3 {
     color: var(--tittle-color);
 }
 
-p {
+p, h5, small {
     font-family: var(--text-font-family);
     color: var(--paragraph-color)
 }
@@ -47,11 +47,14 @@ ul {
     list-style-type: none;
 }
 
-.tittle-word-bold {
+.text-secondary-color {
     color: var(--secondary-color);
 }
+.text-primary-color {
+    color: var(--primary-color);
+}
 
-/* hero background */
+/* imagenes */
 .hero-image {
     background-position: center 0;
     background-image: url(../images/hero-dental-1.png);    
@@ -61,15 +64,25 @@ ul {
     opacity: 1;
     height: 1080px;
 }
-
-/* tamaño del logo*/
 .logo-size-header {
     width: 250px;
     min-width: 250px;
     margin: 10px 0;
 }
-.logo-size-normal {
+.image-size-full {
     width: 100%;
+    min-width: 250px;
+    height: auto;
+    overflow: hidden;
+}
+.image-size-full-full {
+    width: 100%;
+    min-width: 250px;
+    height: 100%;
+    overflow: hidden;
+}
+.image-size-half {
+    width: 50%;
     min-width: 250px;
     height: auto;
 }
@@ -81,7 +94,27 @@ ul {
 .logo-size-footer {
     width: 250px;
     min-width: 250px;
-    margin: 10px 0;
+    margin-top: 20px;
+}
+.heart-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    opacity: 0.2;
+}
+.svg-circle-background {
+    background-position: center 0;
+    background-image: url(../images/circle-abstract.svg);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.svg-circle-background-two {
+    background-position: center 0;
+    background-image: url(../images/circle-abstract2.svg);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
 /* flexbox para elementos alineados del header */
@@ -95,6 +128,11 @@ ul {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 14px;
+}
+.image-fix-rotate {
+    transform: rotate(25deg);
+
+    opacity: 0.5;
 }
 
 /* contrast */
@@ -120,7 +158,6 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0.5px;
 }
-
 
 .header-left > i {
     padding-left: 5px;
@@ -162,14 +199,12 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0.5px;
 }
-
 .footer-menu {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     margin-top: 20px;
 }
-
 .footer-menu > li > a {
     text-decoration: none;
     font-size: 18px;
@@ -197,6 +232,9 @@ ul {
 .top-bottom-margin {
     margin: 30px 0px; /* top-bottom right-left */
 }
+.top-bottom-margin-middle {
+    margin: 50px 0px; /* top-bottom right-left */
+}
 .top-margin {
     margin-top: 30px;
 }
@@ -208,6 +246,9 @@ ul {
 }
 .bottom-margin-extra {
     margin-bottom: 100px;
+}
+.left-margin {
+    margin-left: 20px;
 }
 
 /* hero section */
@@ -221,7 +262,6 @@ ul {
     justify-content: center;
 
 }
-
 .hero-content-box-left {
     display: flex;
     flex-direction: column;
@@ -230,7 +270,6 @@ ul {
     text-align: left;
     margin: auto;
 }
-
 .hero-content-box-right {
     display: flex;
     flex-flow: column nowrap;
@@ -239,81 +278,83 @@ ul {
     /*background-color: aqua;*/
     min-height: 500px;
 }
-
 .hero-title {
     font-size: 64px;
     color: #ffffff;
     text-shadow: 0 6px 10px rgb(0 0 0 / 20%);
 }
-
 .hero-subtitle {
     font-family: var(--title-font-family);
     font-size: 64px;
     color: var(--tittle-color);
 }
-
 .hero-text {
-    margin-top: 20px;
+    margin-top: 25px;
     color: var(--tittle-color);
+}
+.hero-dark {
+    background-color: #444444;
+}
+.title-green {
+    color: #00C897;
+    text-shadow: 0 6px 10px rgb(0 0 0 / 20%);
 }
 
 /* Buttons */
-/*hero button*/
-.hero-button {
+.button {
     margin-top: 25px;
     padding: 1.3em 3em;
-    font-size: 12px;
+    font-size: 14px;
     text-transform: uppercase;
-    letter-spacing: 2.5px;
+    letter-spacing: 1.5px;
     font-weight: 500;
-    color: #000;
-    background-color: #fff;
     border: none;
     border-radius: 5px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
-    width: 150px;
 }
-   
+.hero-button {
+    color: #000;
+    background-color: #fff;
+}
 .hero-button:hover {
-    background-color: #56BBF1;
+    background-color: #0076b4;
     box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
     color: #fff;
     transform: translateY(-4px);
 }
-   
-.hero-button:active {
-    transform: translateY(-1px);
-}
-
-/*default button*/
 .default-button {
     background-color: var(--secondary-color);
-    border: 1px solid var(--secondary-color);
-    border-radius: 4px;
-    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
-    box-sizing: border-box;
     color: #fff;
-    cursor: pointer;
-    font-size: var(--button-font-size);
-    font-weight: 400;
-    font-family: var(--text-font-family);
-    outline: none;
-    outline: 0;
-    padding: 10px 25px;
-    text-align: center;
-    transform: translateY(0);
-    transition: transform 150ms, box-shadow 150ms;
-    margin-top: 20px;
 }
-
 .default-button:hover {
+    background-color: #0076b4;
     box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
-    transform: translateY(-2px);
+    transform: translateY(-4px);
 }
-
+.green-button {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.green-button:hover {
+    background-color: #0076b4;
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-4px);
+}
+.blank-button {
+    background-color: #ffffff;
+    color: #000;
+}
+.blank-button:hover {
+    background-color: #0076b4;
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-4px);
+}
+.button:active {
+    transform: translateY(-1px);
+}
 /*flex box row-column */
 .row-content-column {
     display: flex;
@@ -338,10 +379,19 @@ ul {
     text-align: center;
     justify-content: center;
 }
+.flex-content-top-center {
+    align-items: center;
+    text-align: center;
+}
 .flex-content-left {
     text-align: left;
     justify-content: left;
     align-content: flex-start;
+}
+.flex-content-end {
+    align-items: flex-end;
+    text-align: right;
+    justify-content: flex-end;
 }
 
 /* grids*/
@@ -360,7 +410,7 @@ ul {
     width: 100%;
 }
 
-/* service card */
+/* Cards */
 .go-corner {
     display: flex;
     align-items: center;
@@ -440,7 +490,76 @@ ul {
 .card-content-container {
     margin: 50px 0px;
 }
-/* service card end*/
+/* card with image */
+.complex-card-image {
+    max-width:100%;
+    display: block;
+    object-fit: cover;
+}
+.complex-card {
+    display: flex;
+    top: 0;
+    position: relative; /*hara que suba en el hover*/
+    flex-direction: column;
+    margin: 20px;
+    overflow: hidden;
+    /*box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);*/
+    border-radius: 4px;
+    background: #f1f5f6;
+    font-size: 18px;
+    text-decoration: none;
+}
+.complex-card:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+}
+.complex-card-body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.complex-card-body > p {
+    margin-top: 10px;
+}
+.complex-card-tag {
+    align-self: flex-start;
+    padding: .25em .75em;
+    border-radius: 2px;
+    font-size: .75rem;
+}
+.tag-color-blue {
+    background: #56CCF2;
+    color: #fafafa;
+}
+.tag-color-red {
+    background: #cb2d3e;
+    background: linear-gradient(to bottom, #ef473a, #cb2d3e);
+    color: #fafafa;
+}
+.tag-color-brown {
+    background: #D1913C;
+    background: linear-gradient(to bottom, #FFD194, #D1913C);
+    color: #fafafa;
+}
+.complex-card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-top: auto;
+}
+.complex-card-user {
+    display: flex;
+    gap: .5rem;
+}
+.profile-image {
+    border-radius: 50%;
+}
+.complex-card-footer-color {
+    color: #666;
+}
 
 /* wave */
 .wave-container {
@@ -460,18 +579,16 @@ ul {
 }
 /*end waves*/
 
-.heart-image {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover;
-    opacity: 0.2;
-}
-
 /* footer */
 .map-frame {
     width: 350px;
     height: 250px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.pre-footer {
+    background-color: #2C4855;
+    padding: 50px 0;
+    color: #ffffff;
 }
 
