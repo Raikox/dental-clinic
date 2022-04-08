@@ -8,6 +8,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/contacto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/seguro-dental.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/seguro-dental.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/servicios.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/servicios.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +81,10 @@
       <workItem from="1648927975778" duration="9533000" />
       <workItem from="1649010098860" duration="10001000" />
       <workItem from="1649092499719" duration="18198000" />
-      <workItem from="1649181051062" duration="24381000" />
+      <workItem from="1649181051062" duration="24913000" />
+      <workItem from="1649273409495" duration="9087000" />
+      <workItem from="1649351628424" duration="2525000" />
+      <workItem from="1649356178177" duration="36086000" />
     </task>
     <servers />
   </component>

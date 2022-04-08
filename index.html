@@ -11,19 +11,79 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Noto+Sans&display=swap" rel="stylesheet"> <!-- fuentes a usar -->
 </head>
-<body> <!-- contenido del sitio -->    
-    <div class="hero-image"> <!-- hero image -->
-        <header> <!-- encabezado --> 
+<body> <!-- contenido del sitio -->
+    <div class="desktop-no"> <!-- mobile -->
+        <header> <!-- encabezado -->
             <section class="contrast-color"> <!-- top bar -->
-                <div class="header-navigation contrast-color"> <!-- top bar container -->
+                <div class="header-navigation default-margin"> <!-- top bar container -->
                     <div class="header-left">
                         <i class="fa-solid fa-phone fa-2xs"></i> <span>+51 974999999</span>
-                        <i class="fa-solid fa-calendar fa-2xs"></i> <span>Lun. a Vier. 9:00 - 19:00</span> 
+                        <i class="fa-solid fa-calendar fa-2xs phone-no"></i> <span class="phone-no">Lun. a Vier. 9:00 - 19:00</span>
                     </div>
                     <div class="header-right">
-                        <a href="https://facebook.com/" class="secundary-icon" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
-                        <a href="https://instagram.com/" class="secundary-icon" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
-                        <a href="https://tiktok.com/" class="secundary-icon" target="_blank"><i class="fa-brands fa-tiktok fa-lg"></i></a>
+                        <a href="https://facebook.com/" class="secondary-icon" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                        <a href="https://instagram.com/" class="secondary-icon" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                        <a href="https://tiktok.com/" class="secondary-icon" target="_blank"><i class="fa-brands fa-tiktok fa-lg"></i></a>
+                    </div>
+                </div>
+            </section>
+            <section class="header-navigation default-margin no-padding">
+                <div>
+                    <div class="logo-size-header">
+                        <a href="#"> <!-- enlace al sitio -->
+                            <img src="assets/images/dental-logo.svg" class="image-fit" alt="dental logo" > <!-- logo del sitio -->
+                        </a>
+                    </div>
+                </div>
+                <nav class="navbar">
+                    <div class="navbar-container">
+                        <input type="checkbox" name="" id="">
+                        <div class="hamburger-lines">
+                            <span class="line line1"></span>
+                            <span class="line line2"></span>
+                            <span class="line line3"></span>
+                        </div>
+                        <ul class="menu-items">
+                            <li><a href="index.html"> Inicio </a></li>
+                            <li><a href="views/servicios.html"> Servicios </a></li>
+                            <li><a href="views/seguro-dental.html">Seguro Dental</a></li>
+                            <li><a href="views/blog.html"> Blog </a></li>
+                            <li><a href="views/contacto.html"> Contacto </a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </section>
+        </header>
+        <div >
+            <div class="hero-image"> <!-- mini hero image -->
+                <section class="hero-box default-margin margin-top-bottom padding-top-bottom"> <!-- seccion para hero -->
+                    <div class="hero-content-box-left"> <!-- contenedor left -->
+                        <article> <!-- contenido hero -->
+                            <h2 class="hero-subtitle">El mejor servicio</h2>
+                            <h1 class="hero-title">Dental Especializado</h1>
+                            <p class="hero-text">Hacemos de tu experiencia en salud dental, la mejor.</p>
+                            <button type="button" class="button hero-button">CONTACTO</button> <!-- boton de contacto -->
+                        </article>
+                    </div>
+                    <div class="hero-content-box-right"> <!-- contenedor right -->
+
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="hero-image phone-no"> <!-- hero image --> <!-- desktop-->
+        <header> <!-- encabezado --> 
+            <section class="contrast-color"> <!-- top bar -->
+                <div class="header-navigation default-margin"> <!-- top bar container -->
+                    <div class="header-left">
+                        <i class="fa-solid fa-phone fa-2xs"></i> <span>+51 974999999</span>
+                        <i class="fa-solid fa-calendar fa-2xs phone-no"></i> <span class="phone-no">Lun. a Vier. 9:00 - 19:00</span>
+                    </div>
+                    <div class="header-right">
+                        <a href="https://facebook.com/" class="secondary-icon" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                        <a href="https://instagram.com/" class="secondary-icon" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                        <a href="https://tiktok.com/" class="secondary-icon" target="_blank"><i class="fa-brands fa-tiktok fa-lg"></i></a>
                     </div>
                 </div>
             </section>
@@ -31,14 +91,24 @@
                 <div class="logo-size-header">
                     <a href="#"> <!-- enlace al sitio --> 
                         <img src="assets/images/dental-logo-white.svg" class="image-fit" alt="dental logo" > <!-- logo del sitio -->
-                    </a> 
+                    </a>
                 </div>                        
-                <ul class="header-menu"> <!-- lista no ordenada - menu -->       
-                    <li><a href="index.html">INICIO</a></li>
-                    <li><a href="views/servicios.html">SERVICIOS</a></li> 
-                    <li><a href="views/seguro-dental.html">SEGURO DENTAL</a></li> 
-                    <li><a href="views/blog.html">BLOG</a></li>
-                    <li><a id="right-nopadding" href="views/contacto.html">CONTACTO</a></li>
+                <ul class="header-menu"> <!-- lista no ordenada - menu -->
+                    <li>
+                        <div class="menu-container flex-content-center"><a href="index.html" >INICIO</a></div>
+                    </li>
+                    <li>
+                        <div class="menu-container flex-content-center"><a href="views/servicios.html">SERVICIOS</a></div>
+                    </li>
+                    <li>
+                        <div class="menu-container flex-content-center"><a href="views/seguro-dental.html">SEGURO DENTAL</a></div>
+                    </li>
+                    <li>
+                        <div class="menu-container flex-content-center"><a href="views/blog.html">BLOG</a></div>
+                    </li>
+                    <li>
+                        <div class="menu-container flex-content-center right-nomargin"><a href="views/contacto.html">CONTACTO</a></div>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -59,14 +129,14 @@
     <main> <!-- contenido del sitio -->    
         <section class="top-bottom-margin"> <!-- seccion de servicios -->
             <div class="row-content-row flex-content-center top-margin-extra"> <!-- titulo -->
-                <article class="row-content-column-center">
+                <article>
                     <h1>Nuestros <span class="text-secondary-color">servicios</span></h1>
                     <p>Sonrisas diseñadas para ti</p>
                 </article>
             </div>
             <div class="row-content-row flex-content-center top-bottom-margin"> <!-- servicios -->
                 <div class="simple-grid-3c top-bottom-margin">
-                    <div class="row-content-column"> <!-- row -->
+                    <div class="row-content-column"> <!-- column -->
                         <a href="#" class="card card-primary-color"> <!-- servicio 1 -->
                             <article class="card-content-container">
                                 <div> <!-- icon container -->
@@ -82,7 +152,7 @@
                             </article>
                         </a>
                     </div>
-                    <div class="row-content-column"> <!-- row -->
+                    <div class="row-content-column"> <!-- column -->
                         <a href="#" class="card"> <!-- servicio 2 -->
                             <article class="card-content-container">
                                 <div> <!-- icon container -->
@@ -98,7 +168,7 @@
                             </article>
                         </a>
                     </div>
-                    <div class="row-content-column"> <!-- row -->
+                    <div class="row-content-column"> <!-- column -->
                         <a href="#" class="card card-primary-color"> <!-- servicio 3 -->
                             <article class="card-content-container">
                                 <div> <!-- icon container -->
@@ -144,8 +214,8 @@
                 </svg>
             </div>
             <div class="wave-container-fill"> <!-- contenedor -->
-                <div class="row-content-row"> <!-- fila -->
-                    <div class="simple-grid-2c">
+                <div class="row-content-row phone-no"> <!-- fila -->
+                    <div class="simple-grid-2c o">
                         <article class="column-content-column"> <!-- izquierda -->
                             <div>
                                 <h1 class="hero-title">Nuestro seguro dental</h1>
@@ -162,6 +232,15 @@
                         </div>
                     </div>
                 </div>
+                <div class="row-content-row desktop-no flex-content-center"> <!-- fila -->
+                    <article class="column-content-column"> <!-- izquierda -->
+                        <div>
+                            <h1 class="hero-title">Nuestro seguro dental</h1>
+                            <p class="hero-text">Nulla quis lorem ut libero malesuada feugiat. Nulla porttitor accumsan tincidunt. Donec sollicitudin molestie malesuada</p>
+                            <button type="button" class="button hero-button">Ver precios y caracteristicas</button> <!-- boton de precios -->
+                        </div>
+                    </article>
+                </div>
             </div>
             <div class="wave-container" >
                 <svg viewBox="0 0 500 150" preserveAspectRatio="none" class="wave">
@@ -169,7 +248,30 @@
                 </svg>
             </div>
         </section>
-        <section class="top-margin-extra"> <!-- seccion odontopediatria -->
+        <section class="margin-top-bottom-extra desktop-no"> <!-- seccion odontopediatria phone -->
+            <article class="row-content-column flex-content-center "> <!-- row container -->
+                <div class="flex-content-center svg-circle-background">
+                    <div class="image-size-full">
+                        <img src="/assets/images/tooth-brush.png" alt="" class="image-fit">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h1 class="text-secondary-color">Odontopediatria especializada</h1>
+                        <p class="margin-top-bottom-extra">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus</p>
+                    </div>
+                </div>
+            </article>
+            <article class="row-content-row margin-top-bottom-extra"> <!-- row container -->
+                <div class="flex-content-center"> <!-- column right-->
+                    <div>
+                        <h1 class="text-secondary-color">Brindamos un servicio personalizado</h1>
+                        <p class="margin-top-bottom-extra">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="top-margin-extra phone-no"> <!-- seccion odontopediatria -->
             <article class="row-content-row"> <!-- row container -->
                 <div class="simple-grid-2c">
                     <div class="column-content-column flex-content-center svg-circle-background"> <!-- column left -->
@@ -203,7 +305,7 @@
         </section>
 
         <section class="top-margin-extra"> <!-- seccion blog -->
-            <div class="hero-dark">
+            <div class="hero-dark phone-no">
                 <div class="row-content-row">
                     <div class="simple-grid-2c">
                         <div class="row-content-row">
@@ -221,7 +323,23 @@
                     </div>
                 </div>
             </div>
-            <div>
+            <div class="hero-dark desktop-no">
+                <div class="row-content-column flex-content-center">
+                    <div class="row-content-row margin-top-bottom-extra">
+                        <article class="top-bottom-margin-middle"> <!-- banner -->
+                            <h1 class="hero-title">Informate con nuestro blog</h1>
+                            <p class="text-primary-color top-margin">Recibe los mejores consejos sobre salud bucal, tratamientos y demas</p>
+                            <button type="button" class="button green-button">Ver blog</button>
+                        </article>
+                    </div>
+                    <div class="row-content-row image-size-full-full margin-top-bottom-extra">
+                        <div>
+                            <img src="/assets/images/dental-treatment.png" alt="" class="image-fit image-fix-rotate">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="margin-top-bottom-extra">
                 <div class="row-content-row flex-content-center top-margin-extra bottom-margin-extra"> <!-- entradas -->
                     <div class="simple-grid-3c"> <!-- grid 3 columnas -->
                         <article> <!-- entrada a blog -->
@@ -235,13 +353,13 @@
                                 </div>
                                 <div class="complex-card-footer">
                                     <div class="complex-card-user">
-                                        <img src="https://i.pravatar.cc/40?img=44" alt="usuario" class="profile-image">
+                                        <img src="https://i.pravatar.cc/40?img=12" alt="usuario" class="profile-image">
                                         <div class="complex-card-user-info">
-                                            <h5 class="complex-card-footer-color">Jane Doe</h5>
+                                            <h5 class="complex-card-footer-color">John Kevin</h5>
                                             <small class="complex-card-footer-color">06/04/2022</small>
                                         </div>
                                     </div>
-                                    <span class="complex-card-tag tag-color-blue">Technology</span>
+                                    <span class="complex-card-tag tag-color-blue">Salud</span>
                                 </div>
                             </a>
                         </article>
@@ -256,13 +374,13 @@
                                 </div>
                                 <div class="complex-card-footer">
                                     <div class="complex-card-user">
-                                        <img src="https://i.pravatar.cc/40?img=44" alt="usuario" class="profile-image">
+                                        <img src="https://i.pravatar.cc/40?img=12" alt="usuario" class="profile-image">
                                         <div class="complex-card-user-info">
-                                            <h5 class="complex-card-footer-color">Jane Doe</h5>
+                                            <h5 class="complex-card-footer-color">John Kevin</h5>
                                             <small class="complex-card-footer-color">06/04/2022</small>
                                         </div>
                                     </div>
-                                    <span class="complex-card-tag tag-color-blue">Technology</span>
+                                    <span class="complex-card-tag tag-color-blue">Salud</span>
                                 </div>
                             </a>
                         </article>
@@ -277,13 +395,13 @@
                                 </div>
                                 <div class="complex-card-footer">
                                     <div class="complex-card-user">
-                                        <img src="https://i.pravatar.cc/40?img=44" alt="usuario" class="profile-image">
+                                        <img src="https://i.pravatar.cc/40?img=12" alt="usuario" class="profile-image">
                                         <div class="complex-card-user-info">
-                                            <h5 class="complex-card-footer-color">Jane Doe</h5>
+                                            <h5 class="complex-card-footer-color">John Kevin</h5>
                                             <small class="complex-card-footer-color">06/04/2022</small>
                                         </div>
                                     </div>
-                                    <span class="complex-card-tag tag-color-blue">Technology</span>
+                                    <span class="complex-card-tag tag-color-blue">Salud</span>
                                 </div>
                             </a>
                         </article>
@@ -301,13 +419,13 @@
                     <button type="button" class="button blank-button"> Contactanos</button> <!-- boton de contacto -->
                     <div class="row-content-row flex-content-center top-margin">
                         <i class="fa-solid fa-phone" ></i>
-                        <p class="contrast-text left-margin">51 974999999</p>
+                        <p class="blank-text left-margin">51 974999999</p>
                     </div>
                 </article>
             </div>
         </section>
     </main>
-    <footer class="top-bottom-padding contrast-color"> <!-- pie de pagina -->
+    <footer class="top-bottom-padding contrast-color phone-no"> <!-- pie de pagina -->
         <div class="row-content-row">
             <section class="simple-grid-3c">
                 <div class="column-content-column flex-content-top-center "> <!-- left -->
@@ -317,9 +435,9 @@
                         <img src="assets/images/dental-logo-white-contrast.svg" class="image-fit" alt="dental logo" >
                     </div>
                     <div class="header-right top-margin">
-                        <a href="https://facebook.com/" class="secundary-icon" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
-                        <a href="https://instagram.com/" class="secundary-icon" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
-                        <a href="https://tiktok.com/" class="secundary-icon" target="_blank"><i class="fa-brands fa-tiktok fa-lg"></i></a>
+                        <a href="https://facebook.com/" class="secondary-icon" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                        <a href="https://instagram.com/" class="secondary-icon" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                        <a href="https://tiktok.com/" class="secondary-icon" target="_blank"><i class="fa-brands fa-tiktok fa-lg"></i></a>
                     </div>
                 </div>
                 <div class="column-content-column flex-content-top-center"> <!-- center -->
@@ -338,6 +456,37 @@
                 </div>
             </section>
         </div>
-    </footer>    
+    </footer>
+    <footer class="top-bottom-padding contrast-color desktop-no"> <!-- pie de pagina -->
+        <div class="row-content-column flex-content-center">
+            <div class="column-content-column flex-content-top-center top-margin"> <!-- left -->
+                <h4 class="contrast-title">Neo Sonrisas</h4>
+                <p class="contrast-color contrast-text">Al cuidado de tu sonrisa</p>
+                <div class="logo-size-footer">
+                    <img src="assets/images/dental-logo-white-contrast.svg" class="image-fit" alt="dental logo" >
+                </div>
+                <div class="header-right top-margin">
+                    <a href="https://facebook.com/" class="secondary-icon" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                    <a href="https://instagram.com/" class="secondary-icon" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                    <a href="https://tiktok.com/" class="secondary-icon" target="_blank"><i class="fa-brands fa-tiktok fa-lg"></i></a>
+                </div>
+            </div>
+            <div class="column-content-column flex-content-top-center top-margin"> <!-- center -->
+                <h4 class="contrast-title">Enlaces de interes</h4>
+                <ul class="footer-menu"> <!-- lista no ordenada - menu -->
+                    <li><a href="index.html"> Inicio </a></li>
+                    <li><a href="views/servicios.html"> Servicios </a></li>
+                    <li><a href="views/seguro-dental.html">Seguro Dental</a></li>
+                    <li><a href="views/blog.html"> Blog </a></li>
+                    <li><a href="views/contacto.html"> Contacto </a></li>
+                </ul>
+            </div>
+            <div class="column-content-column flex-content-top-center top-margin bottom-margin"> <!-- right -->
+                <h4 class="contrast-title">Encuentranos</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3794.3993661967943!2d-70.24325865109674!3d-18.006660328518578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915acfe370391e33%3A0xa6266e203211b21e!2sParque%20de%20la%20cultura!5e0!3m2!1ses-419!2spe!4v1647652040130!5m2!1ses-419!2spe" class="map-frame" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+        </div>
+    </footer>
 </body>
 </html>
