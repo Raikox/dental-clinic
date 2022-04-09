@@ -88,6 +88,9 @@ ul {
     height: 100%;
     object-position: center;
 }
+.map-frame {
+    margin-top: 20px;
+}
 
 /* wave */
 .wave-container {
