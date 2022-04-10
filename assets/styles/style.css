@@ -344,7 +344,7 @@ ul {
 
 
 /* PHONE */
-@media (max-width: 479px) {
+@media (max-width: 768px) {
     h1 {
         font-size: var(--tittle-mobile-font-size);
     }
