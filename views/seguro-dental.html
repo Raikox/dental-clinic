@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head> <!-- cabecera del sitio - informatico -->
-    <title>Neo Sonrisas - Seguro dental</title>
+    <title>Neo Sonrisas - Seguro</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,17 +12,65 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Noto+Sans&display=swap" rel="stylesheet"> <!-- fuentes a usar -->
 </head>
 <body> <!-- contenido del sitio -->
+<div class="desktop-no"> <!-- mobile -->
     <header> <!-- encabezado -->
         <section class="contrast-color"> <!-- top bar -->
-            <div class="header-navigation contrast-color"> <!-- top bar container -->
+            <div class="header-navigation default-margin"> <!-- top bar container -->
                 <div class="header-left">
                     <i class="fa-solid fa-phone fa-2xs"></i> <span>+51 974999999</span>
-                    <i class="fa-solid fa-calendar fa-2xs"></i> <span>Lun. a Vier. 9:00 - 19:00</span>
+                    <i class="fa-solid fa-calendar fa-2xs phone-no"></i> <span class="phone-no">Lun. a Vier. 9:00 - 19:00</span>
                 </div>
                 <div class="header-right">
-                    <a href="https://facebook.com/" class="secundary-icon" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
-                    <a href="https://instagram.com/" class="secundary-icon" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
-                    <a href="https://tiktok.com/" class="secundary-icon" target="_blank"><i class="fa-brands fa-tiktok fa-lg"></i></a>
+                    <a href="https://facebook.com/" class="secondary-icon" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                    <a href="https://instagram.com/" class="secondary-icon" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                    <a href="https://tiktok.com/" class="secondary-icon" target="_blank"><i class="fa-brands fa-tiktok fa-lg"></i></a>
+                </div>
+            </div>
+        </section>
+        <section class="header-navigation default-margin no-padding">
+            <div>
+                <div class="logo-size-header">
+                    <a href="#"> <!-- enlace al sitio -->
+                        <img src="/assets/images/dental-logo.svg" class="image-fit" alt="dental logo" > <!-- logo del sitio -->
+                    </a>
+                </div>
+            </div>
+
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+            <ul class="menu">
+                <li><a href="../index.html"> Inicio </a></li>
+                <li><a href="servicios.html"> Servicios </a></li>
+                <li><a href="seguro-dental.html">Seguro Dental</a></li>
+                <li><a href="blog.html"> Blog </a></li>
+                <li><a href="contacto.html"> Contacto </a></li>
+            </ul>
+        </section>
+    </header>
+    <section> <!-- seccion para hero -->
+        <div class="row-content-row flex-content-center default-margin"> <!-- contenedor left -->
+            <article class="margin-top-bottom-extra"> <!-- contenido hero -->
+                <h2 class="hero-subtitle">Seguro Dental Neo Sonrisas</h2>
+                <p class="hero-text">Un seguro para ti y tu familia.</p>
+            </article>
+        </div>
+    </section>
+</div>
+
+<div class="phone-no"> <!-- hero image --> <!-- desktop-->
+    <header> <!-- encabezado -->
+        <section class="contrast-color"> <!-- top bar -->
+            <div class="header-navigation default-margin"> <!-- top bar container -->
+                <div class="header-left">
+                    <i class="fa-solid fa-phone fa-2xs"></i> <span>+51 974999999</span>
+                    <i class="fa-solid fa-calendar fa-2xs phone-no"></i> <span class="phone-no">Lun. a Vier. 9:00 - 19:00</span>
+                </div>
+                <div class="header-right">
+                    <a href="https://facebook.com/" class="secondary-icon" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                    <a href="https://instagram.com/" class="secondary-icon" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                    <a href="https://tiktok.com/" class="secondary-icon" target="_blank"><i class="fa-brands fa-tiktok fa-lg"></i></a>
                 </div>
             </div>
         </section>
@@ -32,27 +80,40 @@
                     <img src="/assets/images/dental-logo.svg" class="image-fit" alt="dental logo" > <!-- logo del sitio -->
                 </a>
             </div>
-            <ul class="header-menu-blank-background"> <!-- lista no ordenada - menu -->
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="servicios.html">SERVICIOS</a></li>
-                <li><a href="seguro-dental.html">SEGURO DENTAL</a></li>
-                <li><a href="blog.html">BLOG</a></li>
-                <li><a id="right-nopadding" href="contacto.html">CONTACTO</a></li>
+            <ul class="header-menu header-menu-blank"> <!-- lista no ordenada - menu -->
+                <li>
+                    <div class="menu-container flex-content-center"><a href="../index.html" >INICIO</a></div>
+                </li>
+                <li>
+                    <div class="menu-container flex-content-center"><a href="servicios.html">SERVICIOS</a></div>
+                </li>
+                <li>
+                    <div class="menu-container flex-content-center"><a href="seguro-dental.html">SEGURO DENTAL</a></div>
+                </li>
+                <li>
+                    <div class="menu-container flex-content-center"><a href="blog.html">BLOG</a></div>
+                </li>
+                <li>
+                    <div class="menu-container flex-content-center right-nomargin"><a href="contacto.html">CONTACTO</a></div>
+                </li>
             </ul>
         </nav>
     </header>
-
     <section> <!-- seccion para hero -->
-        <div> <!-- div para la hero image -->
-            <h1>Nuestro seguro dental</h1>            
-            <p>Eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam</p>
+        <div class="row-content-row flex-content-center default-margin"> <!-- contenedor left -->
+            <article class="margin-top-bottom-extra"> <!-- contenido hero -->
+                <h2 class="hero-subtitle">Seguro Dental Neo Sonrisas</h2>
+                <p class="hero-text">Un seguro para ti y tu familia.</p>
+            </article>
         </div>
     </section>
-    <hr>
-    <main> <!-- contenido del sitio -->
+</div>
 
-        
-    </main>
+<hr>
+<main> <!-- contenido del sitio -->
+
+
+</main>
 
 <footer class="top-bottom-padding contrast-color phone-no"> <!-- pie de pagina -->
     <div class="row-content-row">
@@ -61,7 +122,7 @@
                 <h4 class="contrast-title">Neo Sonrisas</h4>
                 <p class="contrast-color contrast-text">Al cuidado de tu sonrisa</p>
                 <div class="logo-size-footer">
-                    <img src="assets/images/dental-logo-white-contrast.svg" class="image-fit" alt="dental logo" >
+                    <img src="../assets/images/dental-logo-white-contrast.svg" class="image-fit" alt="dental logo" >
                 </div>
                 <div class="header-right top-margin">
                     <a href="https://facebook.com/" class="secondary-icon" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
@@ -72,11 +133,11 @@
             <div class="column-content-column flex-content-top-center"> <!-- center -->
                 <h4 class="contrast-title">Enlaces de interes</h4>
                 <ul class="footer-menu"> <!-- lista no ordenada - menu -->
-                    <li><a href="../index.html"> Inicio </a></li>
-                    <li><a href="servicios.html"> Servicios </a></li>
-                    <li><a href="seguro-dental.html">Seguro Dental</a></li>
-                    <li><a href="blog.html"> Blog </a></li>
-                    <li><a href="contacto.html"> Contacto </a></li>
+                    <li><a href="index.html"> Inicio </a></li>
+                    <li><a href="views/servicios.html"> Servicios </a></li>
+                    <li><a href="views/seguro-dental.html">Seguro Dental</a></li>
+                    <li><a href="views/blog.html"> Blog </a></li>
+                    <li><a href="views/contacto.html"> Contacto </a></li>
                 </ul>
             </div>
             <div class="column-content-column flex-content-top-center"> <!-- right -->
@@ -92,7 +153,7 @@
             <h4 class="contrast-title">Neo Sonrisas</h4>
             <p class="contrast-color contrast-text">Al cuidado de tu sonrisa</p>
             <div class="logo-size-footer">
-                <img src="assets/images/dental-logo-white-contrast.svg" class="image-fit" alt="dental logo" >
+                <img src="/assets/images/dental-logo-white-contrast.svg" class="image-fit" alt="dental logo" >
             </div>
             <div class="header-right top-margin">
                 <a href="https://facebook.com/" class="secondary-icon" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
@@ -103,11 +164,11 @@
         <div class="column-content-column flex-content-top-center top-margin"> <!-- center -->
             <h4 class="contrast-title">Enlaces de interes</h4>
             <ul class="footer-menu"> <!-- lista no ordenada - menu -->
-                <li><a href="../index.html"> Inicio </a></li>
-                <li><a href="servicios.html"> Servicios </a></li>
-                <li><a href="seguro-dental.html">Seguro Dental</a></li>
-                <li><a href="blog.html"> Blog </a></li>
-                <li><a href="contacto.html"> Contacto </a></li>
+                <li><a href="index.html"> Inicio </a></li>
+                <li><a href="views/servicios.html"> Servicios </a></li>
+                <li><a href="views/seguro-dental.html">Seguro Dental</a></li>
+                <li><a href="views/blog.html"> Blog </a></li>
+                <li><a href="views/contacto.html"> Contacto </a></li>
             </ul>
         </div>
         <div class="column-content-column flex-content-top-center top-margin bottom-margin"> <!-- right -->
